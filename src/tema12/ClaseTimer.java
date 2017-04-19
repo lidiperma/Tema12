@@ -13,7 +13,7 @@ public class ClaseTimer {
         // TODO code application logic here
         Timer timer;
         timer= new Timer();
-        
+        //El método run no es un bucle. Es un HILO
         TimerTask task= new TimerTask(){
             int tic=0;
             public void run(){
